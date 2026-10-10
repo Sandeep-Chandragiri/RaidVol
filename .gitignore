@@ -1,0 +1,18 @@
+
+# Compiled executables
+/raidvol
+/test_checksum
+/test_metadata
+/test_metadata_raid1
+/test_raid1
+
+# Object files
+*.o
+
+# Generated disk images and checksum data
+/disks/*.img
+/disks/*checksums*.bin
+
+# Editor and OS files
+.vscode/
+.DS_Store
